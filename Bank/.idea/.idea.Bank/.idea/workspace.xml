@@ -2,49 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d486287-2736-4c5d-8988-c07a20c3ce0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Bank/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Bank/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Bank/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Bank/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Bank/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Bank/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Bank/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bank.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/CHANGES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/NOTICES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/NUnit.3.5.0.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/dotnet/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/dotnet/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/NUnit.System.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net35/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net35/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net40/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net40/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net45/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net45/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/Bank_spec.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/obj/Debug/spec.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/obj/Debug/spec.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/obj/Debug/spec.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/packages.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/spec.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bin/Debug/src.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bin/Debug/src.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obj/Debug/src.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obj/Debug/src.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obj/Debug/src.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obj/Debug/src.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obj/Debug/src.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bank/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Bank_spec.cs" beforeDir="false" afterPath="$PROJECT_DIR$/spec/Bank_spec.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/obj/Debug/spec.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/spec/obj/Debug/spec.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Debug/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/src.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Debug/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/src.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/src.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/src.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +22,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bank.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
-                <marker date="1558010848696" expanded="true" signature="13:60" ph="{...}" />
-                <marker date="1558010848696" expanded="true" signature="37:58" ph="{...}" />
+                <marker date="1558016321259" expanded="true" signature="13:385" ph="{...}" />
+                <marker date="1558016321259" expanded="true" signature="37:383" ph="{...}" />
+                <marker date="1558016321259" expanded="true" signature="109:167" ph="{...}" />
+                <marker date="1558016321259" expanded="true" signature="205:299" ph="{...}" />
+                <marker date="1558016321259" expanded="true" signature="341:377" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -70,13 +38,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/Bank_spec.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="259">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
-                <marker date="1558011653966" expanded="false" signature="6:47" ph="..." />
-                <marker date="1558011653966" expanded="true" signature="63:311" ph="{...}" />
-                <marker date="1558011653966" expanded="true" signature="106:309" ph="{...}" />
-                <marker date="1558011653966" expanded="true" signature="157:303" ph="{...}" />
+                <marker date="1558016321263" expanded="false" signature="6:47" ph="..." />
+                <marker date="1558016321263" expanded="true" signature="63:783" ph="{...}" />
+                <marker date="1558016321263" expanded="true" signature="106:781" ph="{...}" />
+                <marker date="1558016321263" expanded="true" signature="159:307" ph="{...}" />
+                <marker date="1558016321263" expanded="true" signature="353:512" ph="{...}" />
+                <marker date="1558016321263" expanded="true" signature="559:775" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,8 +65,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/spec/Tests.cs" />
-        <option value="$PROJECT_DIR$/src/Bank.cs" />
         <option value="$PROJECT_DIR$/spec/Bank_spec.cs" />
+        <option value="$PROJECT_DIR$/src/Bank.cs" />
       </list>
     </option>
   </component>
@@ -170,12 +140,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558010587046</updated>
-      <workItem from="1558010588459" duration="977000" />
+      <workItem from="1558010588459" duration="4693000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding Files and Initial Test&#10;&#10;Adding the Spec and src files that i will be using for testing and writing my code. Have also added my first test which currently fails.">
+      <created>1558012048497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558012048498</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Passing First Test and Writing Second to Fail">
+      <created>1558013917154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558013917154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="977000" />
+    <option name="totallyTimeSpent" value="4693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -188,6 +173,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="736" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -197,12 +183,12 @@
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Unit Tests" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Build" weight="0.32919255" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -224,6 +210,11 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Files and Initial Test&#10;&#10;Adding the Spec and src files that i will be using for testing and writing my code. Have also added my first test which currently fails." />
+    <MESSAGE value="Passing First Test and Writing Second to Fail" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passing First Test and Writing Second to Fail" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -237,24 +228,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spec/Bank_spec.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="259">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
-            <marker date="1558011653966" expanded="false" signature="6:47" ph="..." />
-            <marker date="1558011653966" expanded="true" signature="63:311" ph="{...}" />
-            <marker date="1558011653966" expanded="true" signature="106:309" ph="{...}" />
-            <marker date="1558011653966" expanded="true" signature="157:303" ph="{...}" />
+            <marker date="1558016321263" expanded="false" signature="6:47" ph="..." />
+            <marker date="1558016321263" expanded="true" signature="63:783" ph="{...}" />
+            <marker date="1558016321263" expanded="true" signature="106:781" ph="{...}" />
+            <marker date="1558016321263" expanded="true" signature="159:307" ph="{...}" />
+            <marker date="1558016321263" expanded="true" signature="353:512" ph="{...}" />
+            <marker date="1558016321263" expanded="true" signature="559:775" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bank.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <marker date="1558010848696" expanded="true" signature="13:60" ph="{...}" />
-            <marker date="1558010848696" expanded="true" signature="37:58" ph="{...}" />
+            <marker date="1558016321259" expanded="true" signature="13:385" ph="{...}" />
+            <marker date="1558016321259" expanded="true" signature="37:383" ph="{...}" />
+            <marker date="1558016321259" expanded="true" signature="109:167" ph="{...}" />
+            <marker date="1558016321259" expanded="true" signature="205:299" ph="{...}" />
+            <marker date="1558016321259" expanded="true" signature="341:377" ph="{...}" />
           </folding>
         </state>
       </provider>

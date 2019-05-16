@@ -11,6 +11,12 @@
 
          public int Deposit(int add)
          {
+             InitialBalance += add;
+             return InitialBalance;
+         }
+
+         public int Withdraw(int remove)
+         {
              
          }
     }
