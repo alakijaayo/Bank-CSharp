@@ -18,18 +18,33 @@ namespace spec
         [Test]
         public void Deposit()
         {
+            // Testing Deposit method
             var testDeposit = new Bank();
             var testAdd = testDeposit.Deposit(1000);
             Assert.AreEqual(1000, testAdd);
+            
+            // Testing balance is changed
+            Assert.AreEqual(1000, testDeposit.MyBalance());
+            
+            //Testing Edge Cases
+            Assert.That(() => testDeposit.Deposit(-50), Throws.ArgumentException);
         }
 
         [Test]
         public void Withdraw()
         {
+            // Testing Withdraw method
             var testWithdraw = new Bank();
-            var Add = testWithdraw.Deposit(1000);
+            var add = testWithdraw.Deposit(1000);
             var testRemove = testWithdraw.Withdraw(500);
             Assert.AreEqual(500, testRemove);
+            
+            // Testing balance has changed
+            Assert.AreEqual(500, testWithdraw.MyBalance());
+            
+            // Testing Edge Cases
+            Assert.That(() => testWithdraw.Withdraw(-60), Throws.ArgumentException);
+            Assert.That(() => testWithdraw.Withdraw(600), Throws.ArgumentException);
         }
     }
 }

@@ -22,14 +22,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bank.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
-                <marker date="1558016321259" expanded="true" signature="13:385" ph="{...}" />
-                <marker date="1558016321259" expanded="true" signature="37:383" ph="{...}" />
-                <marker date="1558016321259" expanded="true" signature="109:167" ph="{...}" />
-                <marker date="1558016321259" expanded="true" signature="205:299" ph="{...}" />
-                <marker date="1558016321259" expanded="true" signature="341:377" ph="{...}" />
+                <marker date="1558027149640" expanded="true" signature="28:985" ph="{...}" />
+                <marker date="1558027149640" expanded="true" signature="52:983" ph="{...}" />
+                <marker date="1558027149640" expanded="true" signature="124:182" ph="{...}" />
+                <marker date="1558027149640" expanded="true" signature="220:481" ph="{...}" />
+                <marker date="1558027149640" expanded="true" signature="258:384" ph="{...}" />
+                <marker date="1558027149640" expanded="true" signature="523:977" ph="{...}" />
+                <marker date="1558027149640" expanded="true" signature="564:691" ph="{...}" />
+                <marker date="1558027149640" expanded="true" signature="734:891" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -38,15 +41,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/Bank_spec.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="660">
+              <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
               <folding>
-                <marker date="1558016321263" expanded="false" signature="6:47" ph="..." />
-                <marker date="1558016321263" expanded="true" signature="63:783" ph="{...}" />
-                <marker date="1558016321263" expanded="true" signature="106:781" ph="{...}" />
-                <marker date="1558016321263" expanded="true" signature="159:307" ph="{...}" />
-                <marker date="1558016321263" expanded="true" signature="353:512" ph="{...}" />
-                <marker date="1558016321263" expanded="true" signature="559:775" ph="{...}" />
+                <marker date="1558027424570" expanded="false" signature="6:47" ph="..." />
+                <marker date="1558027424570" expanded="true" signature="63:1437" ph="{...}" />
+                <marker date="1558027424570" expanded="true" signature="106:1435" ph="{...}" />
+                <marker date="1558027424570" expanded="true" signature="159:307" ph="{...}" />
+                <marker date="1558027424570" expanded="true" signature="353:794" ph="{...}" />
+                <marker date="1558027424570" expanded="true" signature="841:1429" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -65,8 +68,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/spec/Tests.cs" />
-        <option value="$PROJECT_DIR$/spec/Bank_spec.cs" />
         <option value="$PROJECT_DIR$/src/Bank.cs" />
+        <option value="$PROJECT_DIR$/spec/Bank_spec.cs" />
       </list>
     </option>
   </component>
@@ -140,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558010587046</updated>
-      <workItem from="1558010588459" duration="4693000" />
+      <workItem from="1558010588459" duration="10235000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Files and Initial Test&#10;&#10;Adding the Spec and src files that i will be using for testing and writing my code. Have also added my first test which currently fails.">
       <created>1558012048497</created>
@@ -156,11 +159,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558013917154</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Passing Test for Deposit and writing failing tests for Withdraw">
+      <created>1558016510391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558016510391</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4693000" />
+    <option name="totallyTimeSpent" value="10235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -213,7 +223,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Files and Initial Test&#10;&#10;Adding the Spec and src files that i will be using for testing and writing my code. Have also added my first test which currently fails." />
     <MESSAGE value="Passing First Test and Writing Second to Fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passing First Test and Writing Second to Fail" />
+    <MESSAGE value="Passing Test for Deposit and writing failing tests for Withdraw" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passing Test for Deposit and writing failing tests for Withdraw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -228,29 +239,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spec/Bank_spec.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        <state relative-caret-position="660">
+          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
           <folding>
-            <marker date="1558016321263" expanded="false" signature="6:47" ph="..." />
-            <marker date="1558016321263" expanded="true" signature="63:783" ph="{...}" />
-            <marker date="1558016321263" expanded="true" signature="106:781" ph="{...}" />
-            <marker date="1558016321263" expanded="true" signature="159:307" ph="{...}" />
-            <marker date="1558016321263" expanded="true" signature="353:512" ph="{...}" />
-            <marker date="1558016321263" expanded="true" signature="559:775" ph="{...}" />
+            <marker date="1558027424570" expanded="false" signature="6:47" ph="..." />
+            <marker date="1558027424570" expanded="true" signature="63:1437" ph="{...}" />
+            <marker date="1558027424570" expanded="true" signature="106:1435" ph="{...}" />
+            <marker date="1558027424570" expanded="true" signature="159:307" ph="{...}" />
+            <marker date="1558027424570" expanded="true" signature="353:794" ph="{...}" />
+            <marker date="1558027424570" expanded="true" signature="841:1429" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bank.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="540">
+          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding>
-            <marker date="1558016321259" expanded="true" signature="13:385" ph="{...}" />
-            <marker date="1558016321259" expanded="true" signature="37:383" ph="{...}" />
-            <marker date="1558016321259" expanded="true" signature="109:167" ph="{...}" />
-            <marker date="1558016321259" expanded="true" signature="205:299" ph="{...}" />
-            <marker date="1558016321259" expanded="true" signature="341:377" ph="{...}" />
+            <marker date="1558027149640" expanded="true" signature="28:985" ph="{...}" />
+            <marker date="1558027149640" expanded="true" signature="52:983" ph="{...}" />
+            <marker date="1558027149640" expanded="true" signature="124:182" ph="{...}" />
+            <marker date="1558027149640" expanded="true" signature="220:481" ph="{...}" />
+            <marker date="1558027149640" expanded="true" signature="258:384" ph="{...}" />
+            <marker date="1558027149640" expanded="true" signature="523:977" ph="{...}" />
+            <marker date="1558027149640" expanded="true" signature="564:691" ph="{...}" />
+            <marker date="1558027149640" expanded="true" signature="734:891" ph="{...}" />
           </folding>
         </state>
       </provider>
