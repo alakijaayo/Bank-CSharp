@@ -8,11 +8,18 @@ namespace spec
     public class Tests
     {
         [Test]
-        public void Balance()
+        public void MyBalance()
         {
-            var testbalance = new Bank();
-            var zero = testbalance.balance();
+            var testBalance = new Bank();
+            var zero = testBalance.MyBalance();
             Assert.AreEqual(0, zero);
+        }
+
+        public void Deposit()
+        {
+            var testDeposit = new Bank();
+            var addMoney = testDeposit.Deposit(1000);
+            Assert.AreEqual(1000, addMoney);
         }
     }
 }

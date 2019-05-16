@@ -1,2 +1,11 @@
 /Users/Elaine/Projects/Bank-CSharp/Bank/spec/obj/Debug/spec.csprojAssemblyReference.cache
 /Users/Elaine/Projects/Bank-CSharp/Bank/spec/obj/Debug/spec.csproj.CoreCompileInputs.cache
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/bin/Debug/spec.dll
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/bin/Debug/spec.pdb
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/bin/Debug/nunit.framework.dll
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/bin/Debug/src.dll
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/bin/Debug/src.pdb
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/bin/Debug/nunit.framework.xml
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/obj/Debug/spec.csproj.CopyComplete
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/obj/Debug/spec.dll
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/obj/Debug/spec.pdb
