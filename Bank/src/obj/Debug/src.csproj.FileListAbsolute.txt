@@ -1,0 +1,6 @@
+/Users/Elaine/Projects/Bank-CSharp/Bank/src/bin/Debug/src.dll
+/Users/Elaine/Projects/Bank-CSharp/Bank/src/bin/Debug/src.pdb
+/Users/Elaine/Projects/Bank-CSharp/Bank/src/obj/Debug/src.csprojAssemblyReference.cache
+/Users/Elaine/Projects/Bank-CSharp/Bank/src/obj/Debug/src.csproj.CoreCompileInputs.cache
+/Users/Elaine/Projects/Bank-CSharp/Bank/src/obj/Debug/src.dll
+/Users/Elaine/Projects/Bank-CSharp/Bank/src/obj/Debug/src.pdb

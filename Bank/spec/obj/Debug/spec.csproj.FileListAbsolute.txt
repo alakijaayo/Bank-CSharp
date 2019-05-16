@@ -1,0 +1,2 @@
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/obj/Debug/spec.csprojAssemblyReference.cache
+/Users/Elaine/Projects/Bank-CSharp/Bank/spec/obj/Debug/spec.csproj.CoreCompileInputs.cache
