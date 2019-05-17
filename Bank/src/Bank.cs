@@ -4,37 +4,37 @@ namespace src
 {
     public class Bank
     {
-         int InitialBalance = 0;
+        private double _initialBalance;
 
-         public int MyBalance()
+         public double MyBalance()
          {
-             return InitialBalance;
+             return _initialBalance;
          }
 
-         public int Deposit(int add)
+         public double Deposit(double add)
          {
              if (add <= 0)
              {
-                 throw new System.ArgumentException("Please Input Correct Amount To deposit!");
+                 throw new ArgumentException("Please Input Correct Amount To deposit!");
              }
              
-             InitialBalance += add;
-             return InitialBalance;
+             _initialBalance += add;
+             return _initialBalance;
          }
 
-         public int Withdraw(int remove)
+         public double Withdraw(double remove)
          {
              if (remove <= 0)
              {
-                 throw new System.ArgumentException("Please Input Correct Amount To Withdraw!");
+                 throw new ArgumentException("Please Input Correct Amount To Withdraw!");
              }
 
-             if (remove > InitialBalance)
+             if (remove > _initialBalance)
              {
-                 throw new System.ArgumentException("Not Enough Funds Available. Please Put In Amount You Wish To Withdraw!");
+                 throw new ArgumentException("Not Enough Funds Available. Please Put In Amount You Wish To Withdraw!");
              }
-             InitialBalance -= remove;
-             return InitialBalance;
+             _initialBalance -= remove;
+             return _initialBalance;
          }
     }
 }

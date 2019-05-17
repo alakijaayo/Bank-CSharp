@@ -1,5 +1,4 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using src;
 
 namespace spec
@@ -35,7 +34,7 @@ namespace spec
         {
             // Testing Withdraw method
             var testWithdraw = new Bank();
-            var add = testWithdraw.Deposit(1000);
+            testWithdraw.Deposit(1000);
             var testRemove = testWithdraw.Withdraw(500);
             Assert.AreEqual(500, testRemove);
             
