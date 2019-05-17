@@ -4,7 +4,7 @@ using src;
 namespace spec
 {
     [TestFixture]
-    public class Tests
+    public class BankTests
     {
         [Test]
         public void MyBalance()
