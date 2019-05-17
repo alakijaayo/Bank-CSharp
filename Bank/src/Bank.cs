@@ -11,7 +11,7 @@ namespace src
              return _initialBalance;
          }
 
-         public double Deposit(double add)
+         public double Deposit(int add)
          {
              if (add <= 0)
              {
