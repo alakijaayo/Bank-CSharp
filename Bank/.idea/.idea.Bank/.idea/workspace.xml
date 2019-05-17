@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d486287-2736-4c5d-8988-c07a20c3ce0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spec/obj/Debug/spec.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/spec/obj/Debug/spec.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/obj/Debug/spec.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/spec/obj/Debug/spec.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Table.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/Debug/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/Debug/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/src.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/Debug/src.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/src.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/Debug/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/Debug/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/src.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bank/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Table.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="195">
+              <caret line="13" column="76" lean-forward="true" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
               <folding>
                 <marker date="1558117615849" expanded="true" signature="6:47" ph="..." />
                 <marker date="1558117615849" expanded="true" signature="62:760" ph="{...}" />
@@ -183,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558010587046</updated>
       <workItem from="1558010588459" duration="10318000" />
-      <workItem from="1558079513703" duration="17417000" />
+      <workItem from="1558079513703" duration="17714000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Files and Initial Test&#10;&#10;Adding the Spec and src files that i will be using for testing and writing my code. Have also added my first test which currently fails.">
       <created>1558012048497</created>
@@ -227,11 +219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558086958422</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Deposit method to Table&#10;&#10;Adding a deposit method that stores the deposit made by the user to a data field. Passed tests, and have written failing test for Withdraw method">
+      <created>1558117896920</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558117896920</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27735000" />
+    <option name="totallyTimeSpent" value="28032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -243,7 +242,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="621" y="0" width="659" height="800" extended-state="6" />
+    <frame x="-1" y="23" width="1280" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5298869" />
@@ -253,7 +252,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29041097" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -288,7 +287,8 @@
     <MESSAGE value="Passing Tests for Withdraw and Edge Case testing" />
     <MESSAGE value="Minor Adjustments&#10;&#10;Making changes to the code based on Rider suggestions to make my code cleaner and more readable." />
     <MESSAGE value="Adding Table Class&#10;&#10;Adding the table class for me to print out my statements and writing first tests for it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Table Class&#10;&#10;Adding the table class for me to print out my statements and writing first tests for it." />
+    <MESSAGE value="Add Deposit method to Table&#10;&#10;Adding a deposit method that stores the deposit made by the user to a data field. Passed tests, and have written failing test for Withdraw method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Deposit method to Table&#10;&#10;Adding a deposit method that stores the deposit made by the user to a data field. Passed tests, and have written failing test for Withdraw method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -349,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Table.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="195">
+          <caret line="13" column="76" lean-forward="true" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
           <folding>
             <marker date="1558117615849" expanded="true" signature="6:47" ph="..." />
             <marker date="1558117615849" expanded="true" signature="62:760" ph="{...}" />
