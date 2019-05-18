@@ -17,13 +17,19 @@ namespace src
 
         public string Withdraw(int money)
         {
-            
+            history.Add($"{date} || || {money:F} || {_balance -= money:F}");
+            return "Your money has been withdrawn!";
+        }
+        
+        public string Table()
+        {
+           
         }
 
         public static void Main()
         {
             var test = new Table();
-            var addDeposit = test.Deposit(100);
+            test.Deposit(100);
             var testDeposit = test.history[0];
             Console.WriteLine(testDeposit);
         }
