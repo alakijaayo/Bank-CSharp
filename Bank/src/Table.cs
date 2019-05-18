@@ -1,37 +1,49 @@
 using System;
-using System.Collections.Generic;
+using System.Collections;
 
 namespace src
 {
     public class Table
     {
-        public List<string> history = new List<string>();
+        public ArrayList History = new ArrayList();
         private double _balance;
-        private string date = DateTime.Now.ToString("dd/MM/yyyy");
+        private string Date = DateTime.Now.ToString("dd/MM/yyyy");
+        
 
         public string Deposit(double money)
         {
-            history.Add($"{date} || {money:F} || || {_balance += money:F}");
+            History.Add($"{Date} || {money:F} || || {_balance += money:F}");
             return "Your money has been deposited!";
         }
 
         public string Withdraw(int money)
         {
-            history.Add($"{date} || || {money:F} || {_balance -= money:F}");
+            History.Add($"{Date} || || {money:F} || {_balance -= money:F}");
             return "Your money has been withdrawn!";
         }
         
-        public string Table()
+        public string Statement()
         {
-           
-        }
+            var displayStatement = "date || credit || debit || balance\n";
+            var lineBreak = "\n";
+            for (var i = 0; i < History.Count; i++)
+            {
+                History.Reverse();
+                displayStatement += History[i];
+                displayStatement += lineBreak;
 
+            }
+
+            return displayStatement;
+        }
+        
         public static void Main()
         {
             var test = new Table();
-            test.Deposit(100);
-            var testDeposit = test.history[0];
-            Console.WriteLine(testDeposit);
+            Console.WriteLine(test.Deposit(100));
+            test.Withdraw(50);
+            test.Deposit(80);
+            Console.WriteLine(test.Statement());
         }
     }
 }
