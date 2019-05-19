@@ -7,7 +7,7 @@ namespace src
     {
         public ArrayList History = new ArrayList();
         private double _balance;
-        private string Date = DateTime.Now.ToString("dd/MM/yyyy");
+        public string Date = DateTime.Now.ToString("dd/MM/yyyy");
         
 
         public string Deposit(double money)

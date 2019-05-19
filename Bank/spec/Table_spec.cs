@@ -15,7 +15,7 @@ namespace spec
             Assert.AreEqual("Your money has been deposited!", plusOneHundred);
             
             // Testing history is stored
-            Assert.AreEqual("19/05/2019 || 100.00 || || 100.00", testAdditions.History[0]);
+            Assert.AreEqual($"{testAdditions.Date} || 100.00 || || 100.00", testAdditions.History[0]);
         }
 
         [Test]
@@ -27,7 +27,7 @@ namespace spec
             Assert.AreEqual("Your money has been withdrawn!", minusOneHundred);
             
             // Testing history is stored
-            Assert.AreEqual("19/05/2019 || || 100.00 || -100.00", testWithdraw.History[0]);
+            Assert.AreEqual($"{testWithdraw.Date} || || 100.00 || -100.00", testWithdraw.History[0]);
         }
 
         [Test]
@@ -38,7 +38,7 @@ namespace spec
             displayTable.Deposit(100);
             displayTable.Withdraw(50);
             displayTable.Deposit(80);
-            Assert.AreEqual("date || credit || debit || balance\n19/05/2019 || 80.00 || || 130.00\n19/05/2019 || || 50.00 || 50.00\n19/05/2019 || 100.00 || || 100.00\n", displayTable.Statement());
+            Assert.AreEqual($"date || credit || debit || balance\n{displayTable.Date} || 80.00 || || 130.00\n{displayTable.Date} || || 50.00 || 50.00\n{displayTable.Date} || 100.00 || || 100.00\n", displayTable.Statement());
         }
     }
 }

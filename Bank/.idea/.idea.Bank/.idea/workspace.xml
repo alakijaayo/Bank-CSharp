@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/Bank_spec.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="-494">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <marker date="1558083395190" expanded="true" signature="6:33" ph="..." />
                 <marker date="1558083395190" expanded="true" signature="49:1417" ph="{...}" />
@@ -61,20 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Table.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <marker date="1558220031974" expanded="true" signature="6:39" ph="..." />
-                <marker date="1558220031974" expanded="true" signature="54:1322" ph="{...}" />
-                <marker date="1558220031974" expanded="true" signature="79:1320" ph="{...}" />
-                <marker date="1558220031974" expanded="true" signature="291:441" ph="{...}" />
-                <marker date="1558220031974" expanded="true" signature="484:634" ph="{...}" />
-                <marker date="1558220031974" expanded="true" signature="677:1055" ph="{...}" />
-                <marker date="1558220031974" expanded="true" signature="848:1007" ph="{...}" />
-                <marker date="1558220031974" expanded="true" signature="1098:1314" ph="{...}" />
+                <marker date="1558277126751" expanded="true" signature="6:39" ph="..." />
+                <marker date="1558277126751" expanded="true" signature="54:1321" ph="{...}" />
+                <marker date="1558277126751" expanded="true" signature="79:1319" ph="{...}" />
+                <marker date="1558277126751" expanded="true" signature="290:440" ph="{...}" />
+                <marker date="1558277126751" expanded="true" signature="483:633" ph="{...}" />
+                <marker date="1558277126751" expanded="true" signature="676:1054" ph="{...}" />
+                <marker date="1558277126751" expanded="true" signature="847:1006" ph="{...}" />
+                <marker date="1558277126751" expanded="true" signature="1097:1313" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -83,15 +83,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/Table_spec.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="315">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
-                <marker date="1558220514272" expanded="true" signature="6:33" ph="..." />
-                <marker date="1558220514272" expanded="true" signature="49:1446" ph="{...}" />
-                <marker date="1558220514272" expanded="true" signature="97:1444" ph="{...}" />
-                <marker date="1558220514272" expanded="true" signature="148:537" ph="{...}" />
-                <marker date="1558220514272" expanded="true" signature="584:975" ph="{...}" />
-                <marker date="1558220514272" expanded="true" signature="1023:1438" ph="{...}" />
+                <marker date="1558277215351" expanded="true" signature="6:33" ph="..." />
+                <marker date="1558277215351" expanded="true" signature="49:1495" ph="{...}" />
+                <marker date="1558277215351" expanded="true" signature="97:1493" ph="{...}" />
+                <marker date="1558277215351" expanded="true" signature="148:548" ph="{...}" />
+                <marker date="1558277215351" expanded="true" signature="595:996" ph="{...}" />
+                <marker date="1558277215351" expanded="true" signature="1044:1487" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -120,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
@@ -132,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -139,13 +140,17 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Bank" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Bank" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="spec" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,7 +187,8 @@
       <updated>1558010587046</updated>
       <workItem from="1558010588459" duration="10318000" />
       <workItem from="1558079513703" duration="18341000" />
-      <workItem from="1558166796385" duration="19056000" />
+      <workItem from="1558166796385" duration="19638000" />
+      <workItem from="1558272785774" duration="1124000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Files and Initial Test&#10;&#10;Adding the Spec and src files that i will be using for testing and writing my code. Have also added my first test which currently fails.">
       <created>1558012048497</created>
@@ -247,11 +253,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558177736432</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Passing and printing Statement&#10;&#10;Finally figured out how to properly pass and print out my bank statement in my table class and pass the necessary tests written for it. Can now move on to learning how to mock time for tests and importing the table class into the Bank class.">
+      <created>1558220693128</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558220693129</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47715000" />
+    <option name="totallyTimeSpent" value="49421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,12 +278,11 @@
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1280" height="736" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5298869" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5387722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32919255" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
@@ -287,6 +299,7 @@
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.32608697" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32919255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -341,7 +354,8 @@
     <MESSAGE value="Add Deposit method to Table&#10;&#10;Adding a deposit method that stores the deposit made by the user to a data field. Passed tests, and have written failing test for Withdraw method" />
     <MESSAGE value="Adding Table Spec&#10;&#10;For some reason, the Table Spec file was not added in last commit. Still learning how to use Rider properly." />
     <MESSAGE value="Passing Withdraw method and adding Table Method&#10;&#10;Passing the tests for the Withdraw method in the table class and creating a table method and setting up a failing test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Passing Withdraw method and adding Table Method&#10;&#10;Passing the tests for the Withdraw method in the table class and creating a table method and setting up a failing test." />
+    <MESSAGE value="Passing and printing Statement&#10;&#10;Finally figured out how to properly pass and print out my bank statement in my table class and pass the necessary tests written for it. Can now move on to learning how to mock time for tests and importing the table class into the Bank class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Passing and printing Statement&#10;&#10;Finally figured out how to properly pass and print out my bank statement in my table class and pass the necessary tests written for it. Can now move on to learning how to mock time for tests and importing the table class into the Bank class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -354,17 +368,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/Bank_spec.cs">
+    <entry file="file://$PROJECT_DIR$/src/Table.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <marker date="1558083395190" expanded="true" signature="6:33" ph="..." />
-            <marker date="1558083395190" expanded="true" signature="49:1417" ph="{...}" />
-            <marker date="1558083395190" expanded="true" signature="96:1415" ph="{...}" />
-            <marker date="1558083395190" expanded="true" signature="149:297" ph="{...}" />
-            <marker date="1558083395190" expanded="true" signature="343:784" ph="{...}" />
-            <marker date="1558083395190" expanded="true" signature="831:1409" ph="{...}" />
+            <marker date="1558277126751" expanded="true" signature="6:39" ph="..." />
+            <marker date="1558277126751" expanded="true" signature="54:1321" ph="{...}" />
+            <marker date="1558277126751" expanded="true" signature="79:1319" ph="{...}" />
+            <marker date="1558277126751" expanded="true" signature="290:440" ph="{...}" />
+            <marker date="1558277126751" expanded="true" signature="483:633" ph="{...}" />
+            <marker date="1558277126751" expanded="true" signature="676:1054" ph="{...}" />
+            <marker date="1558277126751" expanded="true" signature="847:1006" ph="{...}" />
+            <marker date="1558277126751" expanded="true" signature="1097:1313" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/Table_spec.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <marker date="1558277215351" expanded="true" signature="6:33" ph="..." />
+            <marker date="1558277215351" expanded="true" signature="49:1495" ph="{...}" />
+            <marker date="1558277215351" expanded="true" signature="97:1493" ph="{...}" />
+            <marker date="1558277215351" expanded="true" signature="148:548" ph="{...}" />
+            <marker date="1558277215351" expanded="true" signature="595:996" ph="{...}" />
+            <marker date="1558277215351" expanded="true" signature="1044:1487" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -386,34 +417,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/Table_spec.cs">
+    <entry file="file://$PROJECT_DIR$/spec/Bank_spec.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="-494">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
-            <marker date="1558220514272" expanded="true" signature="6:33" ph="..." />
-            <marker date="1558220514272" expanded="true" signature="49:1446" ph="{...}" />
-            <marker date="1558220514272" expanded="true" signature="97:1444" ph="{...}" />
-            <marker date="1558220514272" expanded="true" signature="148:537" ph="{...}" />
-            <marker date="1558220514272" expanded="true" signature="584:975" ph="{...}" />
-            <marker date="1558220514272" expanded="true" signature="1023:1438" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Table.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-          <folding>
-            <marker date="1558220031974" expanded="true" signature="6:39" ph="..." />
-            <marker date="1558220031974" expanded="true" signature="54:1322" ph="{...}" />
-            <marker date="1558220031974" expanded="true" signature="79:1320" ph="{...}" />
-            <marker date="1558220031974" expanded="true" signature="291:441" ph="{...}" />
-            <marker date="1558220031974" expanded="true" signature="484:634" ph="{...}" />
-            <marker date="1558220031974" expanded="true" signature="677:1055" ph="{...}" />
-            <marker date="1558220031974" expanded="true" signature="848:1007" ph="{...}" />
-            <marker date="1558220031974" expanded="true" signature="1098:1314" ph="{...}" />
+            <marker date="1558083395190" expanded="true" signature="6:33" ph="..." />
+            <marker date="1558083395190" expanded="true" signature="49:1417" ph="{...}" />
+            <marker date="1558083395190" expanded="true" signature="96:1415" ph="{...}" />
+            <marker date="1558083395190" expanded="true" signature="149:297" ph="{...}" />
+            <marker date="1558083395190" expanded="true" signature="343:784" ph="{...}" />
+            <marker date="1558083395190" expanded="true" signature="831:1409" ph="{...}" />
           </folding>
         </state>
       </provider>
