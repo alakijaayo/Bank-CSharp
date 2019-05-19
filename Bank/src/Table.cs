@@ -16,7 +16,7 @@ namespace src
             return "Your money has been deposited!";
         }
 
-        public string Withdraw(int money)
+        public string Withdraw(double money)
         {
             History.Add($"{Date} || || {money:F} || {_balance -= money:F}");
             return "Your money has been withdrawn!";
@@ -35,15 +35,6 @@ namespace src
             }
 
             return displayStatement;
-        }
-        
-        public static void Main()
-        {
-            var test = new Table();
-            Console.WriteLine(test.Deposit(100));
-            test.Withdraw(50);
-            test.Deposit(80);
-            Console.WriteLine(test.Statement());
         }
     }
 }

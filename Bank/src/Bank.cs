@@ -5,13 +5,14 @@ namespace src
     public class Bank
     {
         private double _initialBalance;
+        public Table NewTable = new Table();
 
          public double MyBalance()
          {
              return _initialBalance;
          }
 
-         public double Deposit(int add)
+         public string Deposit(double add)
          {
              if (add <= 0)
              {
@@ -19,10 +20,10 @@ namespace src
              }
              
              _initialBalance += add;
-             return _initialBalance;
+             return NewTable.Deposit(add);
          }
 
-         public double Withdraw(double remove)
+         public string Withdraw(double remove)
          {
              if (remove <= 0)
              {
@@ -34,7 +35,12 @@ namespace src
                  throw new ArgumentException("Not Enough Funds Available. Please Put In Amount You Wish To Withdraw!");
              }
              _initialBalance -= remove;
-             return _initialBalance;
+             return NewTable.Withdraw(remove);
+         }
+
+         public string DisplayStatement()
+         {
+             return NewTable.Statement();
          }
     }
 }

@@ -20,7 +20,7 @@ namespace spec
             // Testing Deposit method
             var testDeposit = new Bank();
             var testAdd = testDeposit.Deposit(1000);
-            Assert.AreEqual(1000, testAdd);
+            Assert.AreEqual("Your money has been deposited!", testAdd);
             
             // Testing balance is changed
             Assert.AreEqual(1000, testDeposit.MyBalance());
@@ -36,7 +36,7 @@ namespace spec
             var testWithdraw = new Bank();
             testWithdraw.Deposit(1000);
             var testRemove = testWithdraw.Withdraw(500);
-            Assert.AreEqual(500, testRemove);
+            Assert.AreEqual("Your money has been withdrawn!", testRemove);
             
             // Testing balance has changed
             Assert.AreEqual(500, testWithdraw.MyBalance());
@@ -44,6 +44,16 @@ namespace spec
             // Testing Edge Cases
             Assert.That(() => testWithdraw.Withdraw(-60), Throws.ArgumentException);
             Assert.That(() => testWithdraw.Withdraw(600), Throws.ArgumentException);
+        }
+
+        [Test]
+        public void DisplayStatement()
+        {
+            var statement = new Bank();
+            statement.Deposit(100);
+            statement.Withdraw(50);
+            statement.Deposit(80);
+            Assert.AreEqual($"date || credit || debit || balance\n{statement.NewTable.Date} || 80.00 || || 130.00\n{statement.NewTable.Date} || || 50.00 || 50.00\n{statement.NewTable.Date} || 100.00 || || 100.00\n", statement.DisplayStatement());
         }
     }
 }
